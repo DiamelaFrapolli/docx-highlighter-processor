@@ -1,5 +1,7 @@
 # Herramienta para Extracción y Análisis de Fragmentos Resaltados en Documentos .docx
 
+Proyecto desarrollado como parte de mi aprendizaje inicial de programación. Durante el desarrollo se utilizaron herramientas de IA como recurso de consulta para familiarizarme con la biblioteca empleada, comprender su documentación y resolver problemas puntuales de implementación.
+
 Este repositorio contiene un script en Python diseñado para automatizar la extracción de fragmentos resaltados y sus colores de fondo en documentos `.docx`. El código accede al XML subyacente del archivo, identifica los fragmentos de texto destacados y extrae sus colores en formato hexadecimal. Estos colores son luego interpretados según un diccionario predefinido que los clasifica en tipos específicos de intervención textual (por ejemplo, **REEMPLAZO**, **ADICIÓN**, etc.).
 
 El propósito de esta herramienta es facilitar el análisis de transformaciones textuales en múltiples versiones de un mismo documento, un proceso central en mi tesina de investigación. Además, el script agiliza la tarea de identificar y clasificar intervenciones textuales en una gran cantidad de fragmentos, mejorando la eficiencia del trabajo sin dejar de lado la revisión manual para garantizar la precisión de los datos.
